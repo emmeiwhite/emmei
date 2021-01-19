@@ -258,6 +258,7 @@ nav .menu-nav__link:hover {
 .projects .projects-wrapper .text-secondary {
   font-size: 2rem;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .projects .project__items {
@@ -353,7 +354,8 @@ nav .menu-nav__link:hover {
   font-size: 3rem;
   margin-bottom: 2rem;
   color: #ff652f;
-  font-weight: 600;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .contact__list {
@@ -393,12 +395,16 @@ nav .menu-nav__link:hover {
     font-size: 1.5rem;
   }
 
+  .about-wrapper__hero .text-secondary {
+    font-size: 3rem;
+    font-weight: 300;
+  }
   .projects .projects-wrapper {
     height: 35vh;
   }
   .projects .projects-wrapper .text-secondary {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 300;
   }
   .projects .project__items {
     grid-template-columns: 1fr 1fr;
@@ -459,8 +465,8 @@ main {
 
 main .social-icons {
   position: fixed;
-  bottom: 1rem;
-  left: 1rem;
+  bottom: 0.7rem;
+  left: 0.5rem;
 }
 
 main .social-icons a {
@@ -468,6 +474,9 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 
+main .social-icons a i {
+  font-size: 1.3rem;
+}
 main .social-icons a:hover {
   color: #ff652f;
 }
@@ -475,7 +484,7 @@ main .social-icons a:hover {
 footer {
   font-size: 1rem;
   position: fixed;
-  right: 1rem;
+  right: 0rem;
   bottom: 0rem;
   text-align: right;
   padding: 1rem;
@@ -483,15 +492,40 @@ footer {
 }
 
 /* For small screen | Minor Fixes */
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   .home,
   .contact {
-    padding-top: 20vh;
+    padding-top: 25vh;
     text-align: center;
-    font-size: 80%;
   }
 
-  .home h2:first-child {
+  .home .home__name {
+    border-bottom: 2px solid #ff652f;
+  }
+  .home .home__title {
     display: none;
+  }
+
+  .home .home__skills {
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+  .contact h2 {
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  .contact__list {
+    font-size: 1.5rem;
+  }
+  .home__name {
+    font-size: 4rem !important;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .home__name--last {
+    font-weight: 300;
   }
 }
