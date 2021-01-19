@@ -248,6 +248,7 @@ nav .menu-nav__link:hover {
 
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
+  right: 1rem;
 }
 
 .projects .projects-wrapper {
@@ -345,6 +346,7 @@ nav .menu-nav__link:hover {
 
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
+  right: 1rem;
 }
 
 .contact {
@@ -475,6 +477,7 @@ header {
 main {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 main .social-icons {
@@ -498,7 +501,7 @@ main .social-icons a:hover {
 footer {
   font-size: 1rem;
   position: fixed;
-  right: 0rem;
+  right: 0.5rem;
   bottom: 0rem;
   text-align: right;
   padding: 1rem;
