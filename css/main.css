@@ -486,8 +486,9 @@ footer {
 @media (max-width: 420px) {
   .home,
   .contact {
-    padding-top: 25vh;
+    padding-top: 20vh;
     text-align: center;
+    font-size: 80%;
   }
 
   .home h2:first-child {
