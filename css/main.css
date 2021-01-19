@@ -18,7 +18,12 @@ ul {
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("./../img/emmei-professional-image.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.5),
+      rgba(39, 39, 39, 0.9)
+    ),
+    url("./../img/emmei-professional-image.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -169,7 +174,12 @@ nav .menu-nav__link:hover {
 .about .about-wrapper {
   width: 100vw;
   height: 50vh;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("./../img/emmei-professional-image.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.5),
+      rgba(39, 39, 39, 0.9)
+    ),
+    url("./../img/emmei-professional-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -213,6 +223,10 @@ nav .menu-nav__link:hover {
   color: #ff652f;
 }
 
+.about .jobs__job a {
+  color: #ff652f;
+}
+
 .about .social-icons {
   display: flex;
   flex-direction: column;
@@ -225,7 +239,12 @@ nav .menu-nav__link:hover {
 .projects .projects-wrapper {
   width: 100vw;
   height: 30vh;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("./../img/emmei-professional-image.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.5),
+      rgba(39, 39, 39, 0.9)
+    ),
+    url("./../img/emmei-professional-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -320,7 +339,12 @@ nav .menu-nav__link:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("./../img/emmei-professional-image.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.5),
+      rgba(39, 39, 39, 0.9)
+    ),
+    url("./../img/emmei-professional-image.jpg");
   background-size: cover;
   background-position: center;
 }
