@@ -15,7 +15,7 @@ ul {
 .home {
   height: 100%;
   padding-top: 35vh;
-  overflow: hidden;
+  overflow-y: scroll;
   align-items: center;
   text-align: center;
   background-image: linear-gradient(
@@ -335,7 +335,7 @@ nav .menu-nav__link:hover {
 .contact {
   height: 100vh;
   padding-top: 35vh;
-  overflow: hidden;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
