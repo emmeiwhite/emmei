@@ -14,7 +14,7 @@ ul {
 
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 35vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
@@ -196,7 +196,7 @@ nav .menu-nav__link:hover {
 }
 
 .about .about-wrapper__hero p {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .about .jobs {
@@ -334,7 +334,7 @@ nav .menu-nav__link:hover {
 
 .contact {
   height: 100vh;
-  padding-top: 40vh;
+  padding-top: 35vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -352,10 +352,8 @@ nav .menu-nav__link:hover {
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
-}
-
-.contact h2 span {
   color: #ff652f;
+  font-weight: 600;
 }
 
 .contact__list {
@@ -394,11 +392,13 @@ nav .menu-nav__link:hover {
   .about-wrapper__hero {
     font-size: 1.5rem;
   }
+
   .projects .projects-wrapper {
-    height: 40vh;
+    height: 35vh;
   }
   .projects .projects-wrapper .text-secondary {
     font-size: 3rem;
+    font-weight: 600;
   }
   .projects .project__items {
     grid-template-columns: 1fr 1fr;
@@ -480,4 +480,17 @@ footer {
   text-align: right;
   padding: 1rem;
   color: #fff;
+}
+
+/* For small screen | Minor Fixes */
+@media (max-width: 420px) {
+  .home,
+  .contact {
+    padding-top: 25vh;
+    text-align: center;
+  }
+
+  .home h2:first-child {
+    display: none;
+  }
 }
