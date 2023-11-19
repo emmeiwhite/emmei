@@ -8,6 +8,10 @@ ul {
   list-style-type: none;
 }
 
+p {
+  line-height: 1.2;
+}
+
 .text-secondary {
   color: #ff652f;
 }
@@ -221,6 +225,11 @@ nav .menu-nav__link:hover {
   grid-gap: 2rem;
 }
 
+.about .secondary-heading {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .about .jobs__job {
   background-color: #414141;
   padding: 0.5rem;
@@ -252,6 +261,10 @@ nav .menu-nav__link:hover {
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
   right: 2rem;
+}
+
+.projects {
+  padding-bottom: 3rem;
 }
 
 .projects .projects-wrapper {
@@ -326,10 +339,10 @@ nav .menu-nav__link:hover {
   height: 100%;
   width: 100%;
   z-index: 1;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .projects .project__btn {
@@ -418,6 +431,12 @@ nav .menu-nav__link:hover {
     font-size: 3rem;
     font-weight: 300;
   }
+
+  .about-wrapper__hero a,
+  .about-wrapper__hero span {
+    color: #ff652f;
+  }
+
   .projects .projects-wrapper {
     height: 35vh;
   }
@@ -455,7 +474,7 @@ body {
   height: 100vh;
   background-color: #272727;
   color: #fff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
 }
 
