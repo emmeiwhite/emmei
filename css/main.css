@@ -8,8 +8,9 @@ ul {
   list-style-type: none;
 }
 
-p {
-  line-height: 1.2;
+p,
+li {
+  line-height: 1.3;
 }
 
 .text-secondary {
@@ -223,6 +224,7 @@ nav .menu-nav__link:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 .about .secondary-heading {
@@ -567,6 +569,12 @@ footer {
 
   .contact__list {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .jobs {
+    width: 80vw;
   }
 }
 
