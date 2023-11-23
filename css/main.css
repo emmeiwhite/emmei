@@ -17,6 +17,11 @@ li {
   color: #ff652f;
 }
 
+.about-wrapper__hero a,
+.about-wrapper__hero span {
+  color: #ff652f;
+  font-weight: 600;
+}
 .home {
   height: 100%;
   padding-top: 35vh;
@@ -433,11 +438,6 @@ nav .menu-nav__link:hover {
   .about-wrapper__hero .text-secondary {
     font-size: 3rem;
     font-weight: 300;
-  }
-
-  .about-wrapper__hero a,
-  .about-wrapper__hero span {
-    color: #ff652f;
   }
 
   .projects .projects-wrapper {
