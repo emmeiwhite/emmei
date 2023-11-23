@@ -206,7 +206,7 @@ nav .menu-nav__link:hover {
     ),
     url("./../img/imran-stackoverflow.png");
   background-size: cover;
-  background-position: top left;
+  background-position: left top;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
@@ -249,6 +249,15 @@ nav .menu-nav__link:hover {
   margin: 0.8rem 0;
 }
 
+.about .jobs__job h3 a {
+  color: #fff;
+  transition: all 0.45s ease-in;
+}
+
+.about .jobs__job h3 a:hover {
+  color: #ff652f;
+}
+
 .about .jobs__job h6 {
   margin: 0.5rem 0;
   color: #ff652f;
@@ -268,7 +277,7 @@ nav .menu-nav__link:hover {
 
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
-  right: 2rem;
+  right: 1.125rem;
 }
 
 .projects {
@@ -370,7 +379,7 @@ nav .menu-nav__link:hover {
 
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
-  right: 2rem;
+  right: 1.125rem;
 }
 
 .contact {
@@ -577,12 +586,4 @@ footer {
   .about .jobs {
     width: 75vw;
   }
-}
-
-/* --- Still upder Development --- */
-.message-dev {
-  color: red;
-  font-weight: 100;
-  text-align: center;
-  margin: 2rem;
 }
