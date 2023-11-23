@@ -201,7 +201,7 @@ nav .menu-nav__link:hover {
     ),
     url("./../img/imran-stackoverflow.png");
   background-size: cover;
-  background-position: top;
+  background-position: top left;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
