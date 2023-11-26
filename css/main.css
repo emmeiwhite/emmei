@@ -621,3 +621,32 @@ footer {
     width: 75vw;
   }
 }
+
+/* Article | Skills */
+.skills-wrapper {
+  padding: 2rem 0;
+}
+
+.skills-wrapper h2 {
+  margin-bottom: 2rem;
+}
+section.jobs {
+  /* background-color: #1c1c1c; */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.progress-bar {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background-color: #ff652f;
+}
