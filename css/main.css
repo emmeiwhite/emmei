@@ -253,6 +253,7 @@ nav .menu-nav__link:hover {
 .about .secondary-heading {
   text-transform: uppercase;
   text-align: center;
+  margin: 1rem 0;
 }
 
 .about .jobs__job {
@@ -329,7 +330,6 @@ nav .menu-nav__link:hover {
 
 .projects .projects-wrapper .text-secondary {
   font-size: 2rem;
-  margin-bottom: 2rem;
   text-transform: uppercase;
   color: #ff652f;
 }
@@ -419,7 +419,8 @@ nav .menu-nav__link:hover {
       rgba(39, 39, 39, 0.5),
       rgba(39, 39, 39, 0.9)
     ),
-    url("./../img/emmei-professional-image.jpg");
+    /* url("./../img/emmei-professional-image.jpg"); */
+      url("./../img/imran-typscript.png");
   background-size: cover;
   background-position: center;
 }
