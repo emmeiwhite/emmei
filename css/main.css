@@ -660,3 +660,18 @@ section.jobs {
   height: 100%;
   background-color: #ff652f;
 }
+
+/* Fun Loader */
+#loader {
+  top: 20%;
+  right: 5%;
+  /* transform: translate(-50%, -50%); */
+  position: absolute;
+  z-index: 1000;
+  transition: var(--transition);
+}
+#loader img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}

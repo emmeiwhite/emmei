@@ -41,3 +41,28 @@ menuBtn.addEventListener("click", (e) => {
 });
 
 */
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get references to the loader and image elements
+  const loader = document.querySelector("#loader");
+  /*
+  // Show loader while the image is loading
+  myImage.addEventListener("load", function () {
+    loader.style.display = "none"; // Hide the loader once the image is loaded
+  });
+
+  myImage.addEventListener("error", function () {
+    // Handle the case where the image fails to load
+    console.error("Failed to load the image.");
+    loader.style.display = "none"; // Hide the loader in case of an error
+  });
+
+  // Show loader initially (optional)
+  loader.style.display = "block";
+  */
+
+  //An Asynchronous task --- is a non-blocking task.
+  setTimeout(() => {
+    loader.style.opacity = 0;
+  }, 3000);
+});
