@@ -22,9 +22,11 @@ li {
   line-height: 1.45;
 }
 
-/* .text-secondary {
+.text-resume {
   color: var(--color-orange);
-} */
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 
 .about-wrapper__hero a,
 .about-wrapper__hero span {
