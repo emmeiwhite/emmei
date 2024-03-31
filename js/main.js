@@ -66,3 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
     loader.style.opacity = 0;
   }, 3000);
 });
+
+// Adding Copy Right date
+
+const date = document.querySelector(".date");
+date.textContent = new Date().getFullYear();

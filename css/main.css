@@ -45,7 +45,7 @@ li {
       rgba(39, 39, 39, 0.9)
     ),
     /* url("./../img/emmei-professional-image.jpg"); */
-      url("./../img/imran-hero.png");
+      url("./../img/imran-hero.jpg");
   background-size: cover;
   background-position: right;
 }
