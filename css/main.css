@@ -215,9 +215,9 @@ nav .menu-nav__link:hover {
       rgba(39, 39, 39, 0.65),
       rgba(39, 39, 39, 0.95)
     ),
-    url("./../img/imran-stackoverflow.png");
-  background-size: cover;
-  background-position: left top;
+    url("./../img/emmei-professional-image.jpg");
+  background-size: contain;
+  background-position: right top;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
@@ -240,9 +240,12 @@ nav .menu-nav__link:hover {
   width: 85vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 2rem;
   padding-bottom: 2rem;
+}
+
+.about .jobs.skills {
+  grid-template-columns: 1fr 1fr;
 }
 
 .about .jobs-container {
@@ -430,23 +433,23 @@ nav .menu-nav__link:hover {
       rgba(39, 39, 39, 0.5),
       rgba(39, 39, 39, 0.9)
     ),
-    /* url("./../img/emmei-professional-image.jpg"); */
-      url("./../img/imran-typscript.png");
+    /* url("./../img/imran-redux-toolkit.png"); */
+      url("./../img/emmei-professional-image.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .contact h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
-  color: var(--color-orange);
-  font-weight: 300;
+  color: white;
+  /* font-weight: 300; */
   text-transform: var(--text-uppercase);
 }
 .contact__phone,
 .contact__email,
 .contact__address {
-  font-weight: 300;
+  font-weight: 400;
 }
 .contact__list {
   display: grid;
@@ -457,13 +460,19 @@ nav .menu-nav__link:hover {
 
 .contact__list .text-secondary {
   color: var(--color-orange);
-  font-weight: 300;
+  font-weight: 400;
 }
 .contact .social-icons {
   position: initial;
   margin-top: 2rem;
 }
 
+.contact .contributions {
+  margin-top: 3rem;
+  font-size: 2rem;
+
+  color: white;
+}
 @media (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
@@ -632,6 +641,10 @@ footer {
   .about .jobs {
     width: 75vw;
   }
+
+  .about .jobs.skills {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Article | Skills */
@@ -659,7 +672,7 @@ section.jobs {
 
 .progress-bar span {
   display: block;
-  height: 100%;
+  height: 50%;
   background-color: #ff652f;
 }
 
